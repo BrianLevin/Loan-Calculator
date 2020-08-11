@@ -30,3 +30,9 @@ function calculateResults(e){
   e.preventDefault();
 }
 
+function showError(error) {
+    // Create a div
+  const errorDiv = document.createElement('div');
+
+
+}

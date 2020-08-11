@@ -33,6 +33,12 @@ function calculateResults(e){
     monthlyPayment.value = monthly.toFixed(2);
     totalPayment.value = (monthly * calculatedPayments).toFixed(2);
     totalInterest.value = ((monthly * calculatedPayments)-principal).toFixed(2);
+  // Show results
+  document.getElementById('results').style.display = 'block';
+
+  // Hide loader
+  document.getElementById('loading').style.display = 'none';
+
   } else {
     showError('Please check your numbers');
   }
@@ -58,6 +64,8 @@ function showError(error) {
 
    // Clear error after 3 seconds
    setTimeout(clearError, 3000);
+
+
 
 }
 // Clear error

@@ -46,4 +46,8 @@ function showError(error) {
 
  // Create text node and append to div
  errorDiv.appendChild(document.createTextNode(error));
+
+   // Clear error after 3 seconds
+   setTimeout(clearError, 3000);
+
 }

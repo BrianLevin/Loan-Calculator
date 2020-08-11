@@ -51,3 +51,7 @@ function showError(error) {
    setTimeout(clearError, 3000);
 
 }
+// Clear error
+function clearError(){
+  document.querySelector('.alert').remove();
+}

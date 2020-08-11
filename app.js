@@ -48,6 +48,11 @@ function calculateResults(e){
 function showError(error) {
     // Create a div
   const errorDiv = document.createElement('div');
+   // Hide results
+   document.getElementById('results').style.display = 'none';
+  
+   // Hide loader
+   document.getElementById('loading').style.display = 'none';
 
   // Get elements
   const card = document.querySelector('.card');

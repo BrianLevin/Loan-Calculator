@@ -41,6 +41,9 @@ function showError(error) {
   // Add class
   errorDiv.className = 'alert alert-danger';
 
+  // Insert error above heading
+  card.insertBefore(errorDiv, heading);
+
  // Create text node and append to div
  errorDiv.appendChild(document.createTextNode(error));
 }

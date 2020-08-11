@@ -35,4 +35,8 @@ function showError(error) {
   const errorDiv = document.createElement('div');
 
 
+  // Add class
+  errorDiv.className = 'alert alert-danger';
+
+
 }

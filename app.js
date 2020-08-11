@@ -34,6 +34,9 @@ function showError(error) {
     // Create a div
   const errorDiv = document.createElement('div');
 
+  // Get elements
+  const card = document.querySelector('.card');
+  const heading = document.querySelector('.heading');
 
   // Add class
   errorDiv.className = 'alert alert-danger';

@@ -6,7 +6,7 @@
 
 The loan Calculator allows users to  put in the loan they owe, the interests of the loan, and how many years they have to repay the loan.
 
- ## Click [here](https://brianlevin.github.io/Loan-Calculator/ for the live app. 
+ ## Click [here](https://brianlevin.github.io/Loan-Calculator/) for the live app. 
  
  This is the home screen:
  
